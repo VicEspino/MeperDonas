@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MeperDonas</string>
+    <string name="descripcion_logo">Fondo meperdonas</string>
+    <string name="descripcion_boton">Imagen del botón</string>
 </resources>
