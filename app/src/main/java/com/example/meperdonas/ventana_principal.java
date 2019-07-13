@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Switch;
 
 public class ventana_principal extends AppCompatActivity {
 
@@ -33,8 +34,14 @@ public class ventana_principal extends AppCompatActivity {
 
 
                 ImageView botonInterno = (ImageView) v;
-                MediaPlayer m = MediaPlayer.create(ventana_principal.this,R.raw.meperdonascorto);
+                Switch sw = findViewById(R.id.swMeper);
+                MediaPlayer m;
+                if(sw.isChecked()) {
+                    m = MediaPlayer.create(ventana_principal.this, R.raw.meperdonas);
 
+                }else{
+                    m = MediaPlayer.create(ventana_principal.this, R.raw.meperdonascorto);
+                }
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
                         m.start();
