@@ -20,12 +20,13 @@
 
     <ImageView
         android:id="@+id/ivGato"
-        android:layout_width="239dp"
-        android:layout_height="231dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="346dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/descripcion_logo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/descripcion_logo"
         app:srcCompat="@drawable/meperdonas" />
 </android.support.constraint.ConstraintLayout>

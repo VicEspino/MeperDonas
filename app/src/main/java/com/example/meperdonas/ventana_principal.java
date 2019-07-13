@@ -1,5 +1,6 @@
 package com.example.meperdonas;
 
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -32,11 +33,12 @@ public class ventana_principal extends AppCompatActivity {
 
 
                 ImageView botonInterno = (ImageView) v;
+                MediaPlayer m = MediaPlayer.create(ventana_principal.this,R.raw.meperdonascorto);
 
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-
-                        botonInterno.setImageResource(R.drawable.botonrojopeque);
+                        m.start();
+                         botonInterno.setImageResource(R.drawable.botonrojopeque);
 
                         return true;
 
