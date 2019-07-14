@@ -3,4 +3,10 @@
     <string name="descripcion_logo">Fondo meperdonas</string>
     <string name="descripcion_boton">Imagen del botón</string>
     <string name="texto_switch">Completo   . </string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="titulo_ayuda">Hecho por el Ingeniero Vic </string>
+    <string name="contenido_ayuda">By Vic, in Collaboration with Vic For VicApps</string>
+    <string name="about_app">About</string>
+    <string name="user">Meper d0nas?</string>
 </resources>
